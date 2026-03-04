@@ -1,7 +1,7 @@
 // colors-------------
-$theme-color: #AE1C9A;
+$theme-color: #00b7b3;
 $primary-color: #FFFFFF;
-$secondary-theme: #FFBB38;
+$secondary-theme: #00b7b3;
 $heading: #232532;
 $paragraph: #797979;
 $theme-bg: rgba(174, 28, 154, .08);
@@ -112,7 +112,7 @@ $spartan: 'League Spartan', sans-serif;
 }
 
 // (product-buttons)
-@mixin productBtn($pd: 1.2rem 1.6rem 1.2rem 2.5rem, $bg: #ae1c9a30, $color: $theme-color) {
+@mixin productBtn($pd: 1.2rem 1.6rem 1.2rem 2.5rem, $bg: #00b7b330, $color: $theme-color) {
     padding: $pd;
     border-top-left-radius: 3rem;
     background: $bg;
